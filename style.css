@@ -619,11 +619,11 @@ main {
 }
 @media (max-width: 560px) {
   html {
-    font-size: 50%;
+    font-size: 55%;
   }
   .grid-container {
     grid-template-columns: 3rem auto;
-    height: 55vh;
+    height: auto;
     /* padding-right: 1rem; */
   }
   .text-block {
@@ -636,7 +636,7 @@ main {
   .text-posit span,
   .text-posit h1 {
     font-size: 5rem;
-    margin-bottom: 4rem;
+    /* margin-bottom: 4rem; */
   }
   .text-posit p {
     width: 100%;
@@ -656,8 +656,8 @@ main {
     width: 100%;
   }
   .info {
-    margin-top: -16%;
-    margin-left: 7%;
+    position: relative;
+    margin-top: 0;
   }
   /* services */
   .items {
