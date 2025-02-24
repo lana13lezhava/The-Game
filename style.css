@@ -619,7 +619,7 @@ main {
 }
 @media (max-width: 560px) {
   html {
-    font-size: 46%;
+    font-size: 50%;
   }
   .grid-container {
     grid-template-columns: 3rem auto;
